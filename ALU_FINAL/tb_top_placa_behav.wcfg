@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_placa_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_placa" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="354.833 ns"></ZoomStartTime>
+      <ZoomEndTime time="761.834 ns"></ZoomEndTime>
+      <Cursor1Time time="694.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_top_placa/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/sw[10]" type="logic">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">[10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/sw[14]" type="logic">
+      <obj_property name="ElementShortName">[14]</obj_property>
+      <obj_property name="ObjectShortName">[14]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/u_loader/nibble_a" type="array">
+      <obj_property name="ElementShortName">nibble_a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/u_loader/nibble_b" type="array">
+      <obj_property name="ElementShortName">nibble_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/op_a" type="array">
+      <obj_property name="ElementShortName">op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/op_b" type="array">
+      <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/u_fputop/u_div/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_placa/uut/u_sev/value" type="array">
+      <obj_property name="ElementShortName">value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value[15:0]</obj_property>
+   </wvobject>
+</wave_config>

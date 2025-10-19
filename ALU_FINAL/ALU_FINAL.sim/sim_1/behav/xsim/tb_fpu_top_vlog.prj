@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../ALU_FINAL.srcs/sources_1/new/fp_converter.v" \
+"../../../../ALU_FINAL.srcs/sources_1/new/fpu_add_fp32_vivado.v" \
+"../../../../ALU_FINAL.srcs/sources_1/new/fpu_div_fp32_vivado.v" \
+"../../../../ALU_FINAL.srcs/sources_1/new/fpu_mul_fp32_vivado.v" \
+"../../../../ALU_FINAL.srcs/sources_1/new/fpu_top.v" \
+"../../../../ALU_FINAL.srcs/sim_1/new/tb_fpu_top_min.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

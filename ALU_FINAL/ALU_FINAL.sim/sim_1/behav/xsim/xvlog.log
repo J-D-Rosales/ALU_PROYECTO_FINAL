@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fp_converter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fp_converter
+INFO: [VRFC 10-311] analyzing module fp16_to_fp32
+INFO: [VRFC 10-311] analyzing module fp32_to_fp16_rne
+WARNING: [VRFC 10-8497] literal value 'd1024 truncated to fit in 10 bits [C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fp_converter.v:197]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fpu_add_fp32_vivado.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu_add_fp32_vivado
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fpu_div_fp32_vivado.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu_div_fp32_vivado
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fpu_mul_fp32_vivado.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu_mul_fp32_vivado
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sources_1/new/fpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sim_1/new/tb_fpu_top_min.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fpu_top

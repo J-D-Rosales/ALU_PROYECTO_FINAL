@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Oct 17 16:47:18 2025
+# Process ID         : 464203
+# Current directory  : /tools/Xilinx/2025.1/Vivado/bin/ALU_FINAL/ALU_FINAL.runs/impl_1
+# Command line       : vivado -log top_placa.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_placa.tcl -notrace
+# Log file           : /tools/Xilinx/2025.1/Vivado/bin/ALU_FINAL/ALU_FINAL.runs/impl_1/top_placa.vdi
+# Journal file       : /tools/Xilinx/2025.1/Vivado/bin/ALU_FINAL/ALU_FINAL.runs/impl_1/vivado.jou
+# Running On         : daros-Latitude-5440
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1335U
+# CPU Frequency      : 1415.673 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16439 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20734 MB
+# Available Virtual  : 12765 MB
+#-----------------------------------------------------------
+source top_placa.tcl -notrace

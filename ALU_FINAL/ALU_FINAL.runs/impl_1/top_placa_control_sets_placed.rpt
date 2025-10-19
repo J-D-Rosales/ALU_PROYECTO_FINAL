@@ -1,0 +1,116 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Fri Oct 17 18:56:10 2025
+| Host         : daros-Latitude-5440 running 64-bit Ubuntu 24.04.3 LTS
+| Command      : report_control_sets -verbose -file top_placa_control_sets_placed.rpt
+| Design       : top_placa
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   137 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     2 |
+| >= 16              |    24 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              38 |           32 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             114 |           44 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             839 |          398 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |          Enable Signal         |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_cnt_reg[1]    | rst                                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | u_pstart/E[0]                  | rst                                               |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG | u_loader/cnt[3]_i_1_n_0        | rst                                               |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/start_sub       | u_fputop/u_sub/eA_unb_e1[6]_i_1__0_n_0            |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/start_sub       | u_fputop/u_sub/eB_unb_e1[6]_i_1__0_n_0            |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/start_add       | u_fputop/u_sum/eA_unb_e1[6]_i_1_n_0               |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/start_add       | u_fputop/u_sum/eB_unb_e1[6]_i_1_n_0               |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_e2_reg__1     | u_fputop/u_sum/result[31]_i_1__1_n_0              |                8 |             11 |         1.38 |
+|  clk_IBUF_BUFG | u_fputop/u_mul/v_e2            | rst                                               |                8 |             11 |         1.38 |
+|  clk_IBUF_BUFG | u_fputop/u_div/v_e2            | rst                                               |                8 |             11 |         1.38 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/v_e2_reg__1     | u_fputop/u_sub/result[31]_i_1__2_n_0              |                7 |             11 |         1.57 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_cnt_reg[0]    | rst                                               |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_cnt0          | u_fputop/u_sum/rst_sync2_reg_0                    |                7 |             14 |         2.00 |
+|  clk_IBUF_BUFG |                                | u_sev/cnt[0]_i_1__2_n_0                           |                4 |             15 |         3.75 |
+|  clk_IBUF_BUFG | u_fputop/u_div/v_e1            | rst                                               |                7 |             17 |         2.43 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/v_e1            | rst                                               |                8 |             19 |         2.38 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_e1            | rst                                               |               10 |             19 |         1.90 |
+|  clk_IBUF_BUFG |                                | u_pload/cnt[0]_i_1__0_n_0                         |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG |                                | u_pstart/cnt[0]_i_1_n_0                           |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/v_e2_reg__1     | u_fputop/u_sub/result[22]_i_1__2_n_0              |               10 |             23 |         2.30 |
+|  clk_IBUF_BUFG | u_fputop/u_div/v_e2            | u_fputop/u_div/result[22]_i_1__0_n_0              |                9 |             23 |         2.56 |
+|  clk_IBUF_BUFG | u_fputop/u_mul/v_e2            | u_fputop/u_mul/result[22]_i_1_n_0                 |               13 |             23 |         1.77 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_e2_reg__1     | u_fputop/u_sum/result[22]_i_1__1_n_0              |               14 |             23 |         1.64 |
+|  clk_IBUF_BUFG | u_fputop/u_div/v_e1            | u_fputop/u_div/Q_scaled_e2[25]_i_1_n_0            |               19 |             26 |         1.37 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/v_e1            | u_fputop/u_sum/frac_with_hidden_e2[23]_i_1_n_0    |               14 |             28 |         2.00 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/v_e1            | u_fputop/u_sub/frac_with_hidden_e2[23]_i_1__0_n_0 |               14 |             28 |         2.00 |
+|  clk_IBUF_BUFG | u_loader/op_a[31]_i_1_n_0      | rst                                               |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | u_loader/op_b[31]_i_1_n_0      | rst                                               |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/valid_out_reg_1 | rst                                               |               23 |             37 |         1.61 |
+|  clk_IBUF_BUFG |                                |                                                   |               32 |             38 |         1.19 |
+|  clk_IBUF_BUFG | u_fputop/u_mul/v_e1_i_1_n_0    | rst                                               |               13 |             42 |         3.23 |
+|  clk_IBUF_BUFG | u_fputop/u_sum/start_add       | rst                                               |               24 |             49 |         2.04 |
+|  clk_IBUF_BUFG | u_fputop/u_sub/start_sub       | rst                                               |               31 |             49 |         1.58 |
+|  clk_IBUF_BUFG |                                | rst                                               |               30 |             59 |         1.97 |
+|  clk_IBUF_BUFG | u_fputop/u_mul/v_e1            | rst                                               |               24 |             63 |         2.62 |
+|  clk_IBUF_BUFG | u_loader/E[0]                  | rst                                               |               17 |             64 |         3.76 |
+|  clk_IBUF_BUFG | start_req0                     | rst                                               |               19 |             66 |         3.47 |
+|  clk_IBUF_BUFG | u_fputop/u_div/start_div       | rst                                               |               53 |             75 |         1.42 |
++----------------+--------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+
+

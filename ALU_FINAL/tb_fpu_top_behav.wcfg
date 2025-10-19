@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fpu_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fpu_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,294,997 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,295,004 ps"></ZoomEndTime>
+      <Cursor1Time time="1,294,999 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_fpu_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/op_a" type="array">
+      <obj_property name="ElementShortName">op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/op_b" type="array">
+      <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/op_code" type="array">
+      <obj_property name="ElementShortName">op_code[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/mode_fp" type="logic">
+      <obj_property name="ElementShortName">mode_fp</obj_property>
+      <obj_property name="ObjectShortName">mode_fp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/round_mode" type="logic">
+      <obj_property name="ElementShortName">round_mode</obj_property>
+      <obj_property name="ObjectShortName">round_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/flags" type="array">
+      <obj_property name="ElementShortName">flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_1_0" type="array">
+      <obj_property name="ElementShortName">F_1_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_1_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_N1_0" type="array">
+      <obj_property name="ElementShortName">F_N1_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_N1_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_1_5" type="array">
+      <obj_property name="ElementShortName">F_1_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_1_5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_2_0" type="array">
+      <obj_property name="ElementShortName">F_2_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_2_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_3_5" type="array">
+      <obj_property name="ElementShortName">F_3_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_3_5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_N2_25" type="array">
+      <obj_property name="ElementShortName">F_N2_25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_N2_25[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_5_0" type="array">
+      <obj_property name="ElementShortName">F_5_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_5_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/F_10_0" type="array">
+      <obj_property name="ElementShortName">F_10_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_10_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/P_ZERO" type="array">
+      <obj_property name="ElementShortName">P_ZERO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_ZERO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/N_ZERO" type="array">
+      <obj_property name="ElementShortName">N_ZERO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_ZERO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/P_INF" type="array">
+      <obj_property name="ElementShortName">P_INF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_INF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/N_INF" type="array">
+      <obj_property name="ElementShortName">N_INF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_INF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/QNAN" type="array">
+      <obj_property name="ElementShortName">QNAN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QNAN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/MAX_NORM" type="array">
+      <obj_property name="ElementShortName">MAX_NORM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_NORM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/MIN_NORM" type="array">
+      <obj_property name="ElementShortName">MIN_NORM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIN_NORM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpu_top/MIN_SUB" type="array">
+      <obj_property name="ElementShortName">MIN_SUB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIN_SUB[31:0]</obj_property>
+   </wvobject>
+</wave_config>

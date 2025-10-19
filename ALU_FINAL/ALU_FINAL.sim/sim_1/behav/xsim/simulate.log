@@ -1,0 +1,35 @@
+Time resolution is 1 ps
+
+[CASE 1] 5.0 + 3.0
+  A=0x40a00000  B=0x40400000  -> R=0x41000000  FLAGS=00000
+
+[CASE 2] +inf + -inf
+  A=0x7f800000  B=0xff800000  -> R=0x7fc00000  FLAGS=10000
+
+[CASE 4] 1.0 / 0.0
+  A=0x3f800000  B=0x00000000  -> R=0x7f800000  FLAGS=01000
+
+[CASE 5] 2^-126 * 0.5+2^-24
+  A=0x00800000  B=0x3f000001  -> R=0x00400000  FLAGS=00011
+
+[CASE 6] 3.4e38 * 2.0
+  A=0x7f7fffff  B=0x40000000  -> R=0x7f800000  FLAGS=00100
+
+[FP16 CASE 1] 5.0 + 3.0
+  A16=0x4500 B16=0x4200 -> R=0x4800 FLAGS=00000
+
+[FP16 CASE 2] +inf + -inf
+  A16=0x7c00 B16=0xfc00 -> R=0x7e00 FLAGS=10000
+
+[FP16 CASE 3] 1.0 / 0.0
+  A16=0x3c00 B16=0x0000 -> R=0x7c00 FLAGS=01000
+
+[FP16 CASE 4] 2^-14 * (0.5 + 1 ulp)  -> subnormal, probable inexact/underflow
+  A16=0x0400 B16=0x3801 -> R=0x0400 FLAGS=00000
+
+[FP16 CASE 5] max_half * 2.0  (65504 * 2)
+  A16=0x7bff B16=0x4000 -> R=0x7c00 FLAGS=00101
+
+*** FIN DE LA SIMULACION ***
+
+$finish called at time : 795 ns : File "C:/Users/cosea/Documents/arqui/ALU_FINAL_FINAL/ALU_FINAL/ALU_FINAL.srcs/sim_1/new/tb_fpu_top_min.v" Line 467

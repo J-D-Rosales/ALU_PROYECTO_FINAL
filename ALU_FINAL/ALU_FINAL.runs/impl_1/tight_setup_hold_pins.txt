@@ -1,0 +1,14 @@
++====================+===================+=======================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                   |
++====================+===================+=======================================+
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sum/flags_reg[0]/D         |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_mul/flags_reg[1]/D         |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_div/flags_reg[1]/D         |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sum/sp_word_e1_reg[22]/D   |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sub/sp_word_e1_reg[22]/D   |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sum/sp_is_special_e1_reg/D |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sub/sp_is_special_e1_reg/D |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_div/sp_word_e1_reg[21]/D   |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_sum/sp_word_e1_reg[31]/D   |
+| sys_clk_pin        | sys_clk_pin       | u_fputop/u_div/sp_word_e1_reg[31]/D   |
++--------------------+-------------------+---------------------------------------+

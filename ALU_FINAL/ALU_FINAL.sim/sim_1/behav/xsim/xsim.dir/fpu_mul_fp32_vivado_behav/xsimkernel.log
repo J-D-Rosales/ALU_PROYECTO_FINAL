@@ -1,0 +1,7 @@
+Running: xsim.dir/fpu_mul_fp32_vivado_behav/xsimk -simmode gui -wdb fpu_mul_fp32_vivado_behav.wdb -simrunnum 0 -socket 36137
+Design successfully loaded
+Design Loading Memory Usage: 179016 KB (Peak: 179072 KB)
+Design Loading CPU Usage: 1440 ms
+Simulation completed
+Simulation Memory Usage: 260752 KB (Peak: 318284 KB)
+Simulation CPU Usage: 1460 ms
