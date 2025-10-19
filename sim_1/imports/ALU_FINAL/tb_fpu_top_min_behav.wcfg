@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fpu_top_min_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fpu_top_min" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="151.601 ns"></ZoomEndTime>
+      <Cursor1Time time="55.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="302"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/tb_fpu_top_min/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fpu_top_min/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fpu_top_min/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/op_a">
+      <obj_property name="ElementShortName">op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/op_b">
+      <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/op_code">
+      <obj_property name="ElementShortName">op_code[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/result">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/round_mode">
+      <obj_property name="ElementShortName">round_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">round_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fpu_top_min/flags">
+      <obj_property name="ElementShortName">flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fpu_top_min/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fpu_top_min/mode_fp">
+      <obj_property name="ElementShortName">mode_fp</obj_property>
+      <obj_property name="ObjectShortName">mode_fp</obj_property>
+   </wvobject>
+</wave_config>
